@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /tmp/
+docker run --rm --net=host -it \
+--volumes-from gulp-tool-dir \
+       -v ~/gulp-tool-dev:/work \
+	   falinux/gulp-tool:latest \
+	   $*
