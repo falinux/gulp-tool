@@ -12,25 +12,53 @@ gulp-tool 은 gulp 를 이용하여 처리 자동화 모음이다.
 	Docker
 	Git
 
-### 사용을 위한 최초 툴 설치 
+### gulp-tool-dev
 
-	$ git clone https://github.com/david6miji/gulp-tool.git
-	$ cd gulp-tool
+#### 사용을 위한 최초 툴 설치 
+
+	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool
+	$ cd ~/gulp-tool
 	$ ./install.sh	
 
-### 최초 설치 후 명령 스크립트 만 재 설치 
+
+##### 툴 사용하기
+
+	$ cd [working directory]
+	$ gulp-tool
+
+
+#### 최초 설치 후 명령 스크립트 만 재 설치 
 
 	$ cd gulp-tool
 	$ ./install_cmd.sh	
 
-### gulp-tool 컨테이너 진입
 
-	$ cd [작업 디렉토리]
+#### gulp-tool 컨테이너 진입
+
+	$ cd [working directory]
 	$ gulp-tool
-	# 
 	
-### gulp-tool 컨테이너에서 업그레이드
+	
+#### gulp-tool 컨테이너에서 업그레이드
 
-	$ cd [작업 디렉토리]
+	$ cd ~/gulp-tool
 	$ gulp-tool
-	# gt-update
+	$ ./gt-update
+	
+	
+### gulp-tool-dev
+
+#### Download and install	
+
+	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool-dev
+	$ cd ~/gulp-tool-dev
+	$ ./install.sh
+	
+#### Edit gulp-tool
+
+	$ gulp-tool-dev
+	
+	... Edit ...
+	
+	$ ./gtd-push
+
