@@ -18,8 +18,8 @@ From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
 
 ### Download and install	
 
-	$ git clone https://github.com/david6miji/gulp-tool.git
-	$ cd gulp-tool
+	$ git clone https://github.com/david6miji/gulp-tool.git ~/gulp-tool
+	$ cd ~/gulp-tool
 	$ ./install.sh
 	
 ### Enter into gulp-tool
@@ -31,5 +31,8 @@ From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
 	
 In gulp-tool
 
-	$ gtl update	
+	$ cd ~/gulp-tool
+	$ gulp-tool
+	$ ./gt-update
 	
+
