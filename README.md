@@ -1,6 +1,9 @@
 
 # gulp-tool 
 
+From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
+---
+
 [한국어 README](https://github.com/falinux/gulp-tool/tree/master/ko/README.md)
 
 ## Introduction
