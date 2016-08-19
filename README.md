@@ -27,12 +27,26 @@ From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
 	$ cd [working directory]
 	$ gulp-tool
 	
-### Enter into gulp-tool
+### Updage gulp-tool
 	
-In gulp-tool
-
 	$ cd ~/gulp-tool
 	$ gulp-tool
 	$ ./gt-update
+	
+### gulp-tool-dev
+
+#### Download and install	
+
+	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool-dev
+	$ cd ~/gulp-tool-dev
+	$ ./install.sh
+	
+#### Edit gulp-tool
+
+	$ gulp-tool-dev
+	
+	... Edit ...
+	
+	$ ./gtd-push
 	
 
