@@ -95,17 +95,29 @@ gulp.task('gt:push',
 		function(done) {
 			console.log( 'RUN gt:push' );
 			done();
-		}, 
+		},
+		
+		shell.task( ['git config --global user.name "' + gt_env[gt_env_name].github.username + '"' ], 
+		            { verbose : true , 
+					  cwd : "/work/"  
+					} 
+				  ),
+
+		shell.task( ['git config --global user.email "' + gt_env[gt_env_name].github.email + '"' ], 
+		            { verbose : true , 
+					  cwd : "/work/"  
+					} 
+				  ),
 		
 		shell.task( ['git add --all'], 
 		            { verbose : true , 
-					  cwd : "/gulp-tool/"  
+					  cwd : "/work/"  
 					} 
 				  ),
 				  
 		shell.task( ['git commit -a -m "backup"'], 
 		            { verbose : true , 
-					  cwd : "/gulp-tool/", 
+					  cwd : "/work/", 
 					  ignoreErrors : true  
 					} 
 				  ),
