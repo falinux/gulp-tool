@@ -18,7 +18,7 @@ From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
 
 ### Download and install	
 
-	$ git clone https://github.com/david6miji/gulp-tool.git ~/gulp-tool
+	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool
 	$ cd ~/gulp-tool
 	$ ./install.sh
 	
