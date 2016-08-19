@@ -21,13 +21,7 @@ gulp-tool 은 gulp 를 이용하여 처리 자동화 모음이다.
 	$ ./install.sh	
 
 
-##### 툴 사용하기
-
-	$ cd [working directory]
-	$ gulp-tool
-
-
-#### 최초 설치 후 명령 스크립트 만 재 설치 
+#### 최초 설치 후 명령 스크립트만 재 설치 
 
 	$ cd gulp-tool
 	$ ./install_cmd.sh	
@@ -48,13 +42,13 @@ gulp-tool 은 gulp 를 이용하여 처리 자동화 모음이다.
 	
 ### gulp-tool-dev
 
-#### Download and install	
+#### gulp-tool 개발을 위한 dev 툴 설치
 
 	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool-dev
 	$ cd ~/gulp-tool-dev
 	$ ./install.sh
 	
-#### Edit gulp-tool
+#### gulp-tool 개발 후 github에 업데이트
 
 	$ gulp-tool-dev
 	
