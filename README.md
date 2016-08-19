@@ -1,5 +1,5 @@
 
-# gulp-tool 1
+# gulp-tool
 ---
 
 From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
