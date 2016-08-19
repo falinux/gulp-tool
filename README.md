@@ -16,18 +16,20 @@ From David You - david6miji@gmail.com / GITHUB - https://github.com/david6miji
 	Docker
 	Git
 
-### Download and install	
+### gulp-tool
+
+#### Download and install	
 
 	$ git clone https://github.com/falinux/gulp-tool.git ~/gulp-tool
 	$ cd ~/gulp-tool
 	$ ./install.sh
 	
-### Enter into gulp-tool
+#### Enter into gulp-tool
 
 	$ cd [working directory]
 	$ gulp-tool
 	
-### Updage gulp-tool
+#### Updage gulp-tool
 	
 	$ cd ~/gulp-tool
 	$ gulp-tool
